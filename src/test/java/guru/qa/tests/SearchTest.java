@@ -27,7 +27,7 @@ public class SearchTest extends TestBase {
         });
 
         step("Check that quantity of results more than 0", () -> {
-            $$(id("org.wikipedia.alpha:id/page_list_item_title")).shouldHave(sizeGreaterThan(0));
+            $$(id("org.wikipedia:id/page_list_item_title")).shouldHave(sizeGreaterThan(0));
         });
     }
 }
